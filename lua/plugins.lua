@@ -92,5 +92,6 @@ packer.startup(function(use)
 	use({ "kkharji/lspsaga.nvim" })
 	--Lsp-Installer Mason
 	use({ "williamboman/mason.nvim" })
+	--Lazy loading using impatient
 	use("lewis6991/impatient.nvim")
 end)
