@@ -12,3 +12,4 @@ require("lspconfig").tailwindcss.setup({ capabilities = capabilities })
 require("lspconfig").sumneko_lua.setup({ capabilities = capabilities })
 require("lspconfig").cssls.setup({ capabilities = capabilities })
 require'lspconfig'.yamlls.setup{}
+require'lspconfig'.prismals.setup{}

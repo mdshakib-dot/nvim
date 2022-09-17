@@ -93,3 +93,4 @@ require("lspconfig")["sumneko_lua"].setup({
 	capabilities = capabilities,
 })
 require("lspconfig")["yamlls"].setup({})
+require("lspconfig")["prismals"].setup({})
