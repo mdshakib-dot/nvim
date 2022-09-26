@@ -16,10 +16,8 @@ packer.init({
 packer.startup(function(use)
 	use("wbthomason/packer.nvim") --Packer Nvim
 	--Color Scheme
-	use("folke/tokyonight.nvim")
+	--use("folke/tokyonight.nvim")
 	use("EdenEast/nightfox.nvim")
-	use("navarasu/onedark.nvim")
-	use("Mofiqul/dracula.nvim")
 	--Web Icons
 	use("kyazdani42/nvim-web-devicons")
 	--buffer line
