@@ -28,6 +28,7 @@ return {
 			lspconfig.html.setup({ capabilities = capabilities })
 			lspconfig.emmet_language_server.setup({ capabilities = capabilities })
 			lspconfig.jdtls.setup({capabilities=capabilities})
+			lspconfig.clangd.setup({capabilities=capabilities})
 			vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
 			vim.keymap.set("n", "gb", vim.lsp.buf.declaration, {})
 			vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})
